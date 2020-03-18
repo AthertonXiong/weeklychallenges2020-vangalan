@@ -1,0 +1,65 @@
+$color: rgba(78, 78, 78, 0.822);
+$color2: rgba(14, 138, 14, 0.61);
+
+body, html{
+    margin: 0;
+    height: 100vh;
+}
+body{
+    place-content: center;
+    height: 100vh;
+    font-family: sans-serif;
+    background: $color;
+}
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 300px; 
+}
+p{
+    text-align: center;
+}
+p::first-line{
+    color: #ff0000;
+
+}
+
+h1{
+    font-size: 80px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+h2{
+        font-size: 50px;
+        font-weight: bold;
+        display: flex;
+        justify-content: center;
+    }
+img{
+    height: 450px;
+    width: 450px;
+    display:flex;
+    margin: auto;
+}
+.row {
+    display: grid;
+    grid-row-gap: 50px;
+    grid-template-columns: auto auto auto;
+    padding: 30px;
+    height: 800px;
+
+    &__column{
+        border: solid black 2px;
+        background: $color2;
+        &--skyblue{
+            background-color: skyblue;
+            border: solid black 2px;
+        }
+        &--pink{
+            background-color: pink;
+            border: solid black 2px;
+        }
+    }
+}

@@ -1,0 +1,83 @@
+body, html {
+  margin: 0;
+  height: 100vh;
+}
+
+body {
+  place-content: center;
+  height: 100vh;
+  font-family: sans-serif;
+  background: rgba(78, 78, 78, 0.822);
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 300px;
+}
+
+p {
+  text-align: center;
+}
+
+p::first-line {
+  color: #ff0000;
+}
+
+h1 {
+  font-size: 80px;
+  font-weight: bold;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+h2 {
+  font-size: 50px;
+  font-weight: bold;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+img {
+  height: 450px;
+  width: 450px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: auto;
+}
+
+.row {
+  display: -ms-grid;
+  display: grid;
+  grid-row-gap: 50px;
+  -ms-grid-columns: auto auto auto;
+      grid-template-columns: auto auto auto;
+  padding: 30px;
+  height: 800px;
+}
+
+.row__column {
+  border: solid black 2px;
+  background: rgba(14, 138, 14, 0.61);
+}
+
+.row__column--skyblue {
+  background-color: skyblue;
+  border: solid black 2px;
+}
+
+.row__column--pink {
+  background-color: pink;
+  border: solid black 2px;
+}
+/*# sourceMappingURL=Veryhard.css.map */
