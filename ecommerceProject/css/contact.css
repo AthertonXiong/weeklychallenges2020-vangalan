@@ -138,7 +138,7 @@ body {
 }
 
 .btn:hover {
-  background: #F7C08A;
+  background: rgb(72, 241, 72);
   color: #333;
   transition: 0.7s;
   border: 2px #fff;

@@ -9,7 +9,7 @@ function validate(){
     error_message.style.padding = "10px";
 
     var text;
-  if(fName.length < 1){
+  if(fName.length < 2){
     text = "Please Enter First Name";
     error_message.innerHTML = text;
     return false;
@@ -29,8 +29,9 @@ function validate(){
 }
 
 
-
-
+// Using the method getElementById() returns an element object representing the ID property.
+// You can use querySelector() to find the element using any selector. No ID.
+// The indexOf() method returns the position of the first occurrence of a specified value in a string.
 
 
 
