@@ -6,7 +6,7 @@
 // Do not have anyone give you the answer or solve this problem for you.
 
 
-var coins = [1, 2, 4, 5, 8]
+var coins = [1, 2, 4, 5, 8] 
 var  amount = 20;
 
 function veryHard(coins, amount) {
