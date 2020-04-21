@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: red;
+}
+
+button {
+    padding: 30px;
+    border-radius: 60px;
+    box-shadow: 6px 6px 4px grey;
+}
+
+.bg-red {
+    background-color: red;
+}
+
+.bg-white {
+    background-color: white;
+}
