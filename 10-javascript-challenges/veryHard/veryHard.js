@@ -28,7 +28,7 @@ function noRepeat(str) {
 }
 console.log(noRepeat('the quick brown fox jumps over the calm kitten quietly'));
 
-  
+
 
 
 
