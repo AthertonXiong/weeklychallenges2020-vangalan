@@ -1,5 +1,15 @@
 Please let me know if there is anything that is confusing to look over. Me and my tech mentor did an extra step to add on this challenge so that the user can add their data onto the dom. 
 
+
+
+
+
+
+
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
